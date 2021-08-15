@@ -27,6 +27,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "handlebars-loader": "^1.7.1",
     "lodash.debounce": "^4.0.8",
     "pnotify": "^5.2.0"
   }
