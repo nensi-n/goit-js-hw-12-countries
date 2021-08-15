@@ -33,10 +33,10 @@ function renderMarkup(countries) {
   if (countries.length === 1) {
     resetSearch();
     markupContries(countryTpl, countries);
-  } else if (countries.length > 1 && countries.length <= 10) {
+  } else if (countries.length > 1 && countries.length < 10) {
     resetSearch();
     markupContries(countriesTpl, countries);
-  } else if (countries.length > 10) {
+  } else if (countries.length >= 10) {
     resultMessage(
       error,
       'To many matches found. Please enter a more specific query!',
