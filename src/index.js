@@ -1,6 +1,6 @@
 import countriesApi from './js/fetchCountries';
 import countryTpl from './templates/country-card.hbs';
-import countriesTpl from './templates/country-card.hbs';
+import countriesTpl from './templates/list-countries.hbs';
 import getRefs from './js/get-refs';
 
 import { info, error } from '@pnotify/core';
